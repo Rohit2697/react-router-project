@@ -3,7 +3,9 @@ import { Fragment } from 'react';
 import QuoteItem from './QuoteItem';
 import classes from './QuoteList.module.css';
 
+
 const QuoteList = (props) => {
+  
   return (
     <Fragment>
       <ul className={classes.list}>
@@ -16,6 +18,7 @@ const QuoteList = (props) => {
           />
         ))}
       </ul>
+
     </Fragment>
   );
 };
